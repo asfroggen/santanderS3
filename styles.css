@@ -31,10 +31,6 @@ input{
     align-items: stretch;
 }
 
-.publish > form {
-    display: flex;
-}
-
 .start-container{
     display: flex;
 }
@@ -48,7 +44,6 @@ input{
     padding: 6px 20px;
     margin-left: -5px;
 }
-
 .publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
@@ -70,5 +65,19 @@ input{
   
 .publish > form p {
     color: #025157;
+    align-self: center;
     margin-right: 18px;
+}
+
+.container{
+  display: flex;
+}
+.video-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video-image img{
+  width: 120px;
+  margin-top: 10px;
 }
