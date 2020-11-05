@@ -1,45 +1,74 @@
-.container-header{
-    width: 100%;
-    height: 200px;
-    background-color: cyan;
-}
-
-.container-section-promo{
-    display: flex;
-    width: 70%;
-    margin: 100px auto;
-    align-items: center;
-}
-
-.item-article{
-    width: 30%;
-    height: 100px;
-    background-color: cyan;
-}
-
-.publish {
-    /* container styles if any */
-  }
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
   
-  .publish h3 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+    height: 55px;
+}
+
+input, button, .button-trial {
+    height: 100%;
+    border-radius: 8px;
+}
+  
+input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+.input-container{
+    display: flex;
+    align-items: stretch;
+}
+
+.publish > form {
+    display: flex;
+}
+
+.start-container{
+    display: flex;
+}
+
+.button-trial{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -5px;
+}
+
+.publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
   }
   
-  .publish > p {
+.publish > p {
     font-size: 16px;
+    margin-top: 16px;
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
-  }
+}
   
-  .publish > form {
+.publish > form {
     display: flex;
-  }
+}
   
-  .publish > form p {
+.publish > form p {
     color: #025157;
     margin-right: 18px;
-  }
+}
